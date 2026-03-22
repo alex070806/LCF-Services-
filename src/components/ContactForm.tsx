@@ -17,7 +17,7 @@ export default function ContactForm() {
     const data = new FormData(form);
 
     try {
-      await fetch("https://formsubmit.co/ajax/info@lcfservises.us", {
+      await fetch("https://formsubmit.co/ajax/burchenkodima476@gmail.com", {
         method: "POST",
         body: data,
       });

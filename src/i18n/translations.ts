@@ -21,6 +21,10 @@ export const translations: Record<Lang, Record<string, string>> = {
       "Высокий гросс, стабильные рейсы и персональный подход к каждому водителю. Присоединяйтесь к команде LCF Services!",
     hero_cta: "Начать сотрудничество",
     hero_learn: "Подробнее",
+    hero_stat_revenue: "Ваш доход",
+    hero_stat_deposit: "Без депозита",
+    hero_stat_support: "Поддержка",
+    hero_stat_start: "Дней до старта",
 
     services_title: "Условия работы",
     services_subtitle:
@@ -198,6 +202,10 @@ export const translations: Record<Lang, Record<string, string>> = {
       "Високий грос, стабільні рейси та індивідуальний підхід до кожного водія. Приєднуйтесь до LCF Services!",
     hero_cta: "Почати співпрацю",
     hero_learn: "Детальніше",
+    hero_stat_revenue: "Ваш дохід",
+    hero_stat_deposit: "Без депозиту",
+    hero_stat_support: "Підтримка",
+    hero_stat_start: "Днів до старту",
 
     services_title: "Умови роботи",
     services_subtitle:
@@ -376,6 +384,10 @@ export const translations: Record<Lang, Record<string, string>> = {
       "High gross, consistent loads, and a personal approach to every driver. Join the LCF Services team!",
     hero_cta: "Get Started",
     hero_learn: "Learn More",
+    hero_stat_revenue: "Your Revenue",
+    hero_stat_deposit: "No Deposit",
+    hero_stat_support: "Support",
+    hero_stat_start: "Days to Start",
 
     services_title: "Our Terms",
     services_subtitle:
@@ -552,6 +564,10 @@ export const translations: Record<Lang, Record<string, string>> = {
       "Alto gross, cargas estables y un enfoque personalizado para cada conductor. ¡Únase a LCF Services!",
     hero_cta: "Comenzar",
     hero_learn: "Más Información",
+    hero_stat_revenue: "Su Ingreso",
+    hero_stat_deposit: "Sin Depósito",
+    hero_stat_support: "Soporte",
+    hero_stat_start: "Días para Iniciar",
 
     services_title: "Nuestras Condiciones",
     services_subtitle:
