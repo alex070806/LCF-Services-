@@ -64,10 +64,10 @@ export default function Hero() {
             className="hidden lg:grid grid-cols-2 gap-4"
           >
             {[
-              { icon: TrendingUp, value: "88%", label: "Your revenue" },
-              { icon: Shield, value: "$0", label: "No deposit" },
-              { icon: Clock, value: "24/7", label: "Support" },
-              { icon: ArrowRight, value: "1-2", label: "Days to start" },
+              { icon: TrendingUp, value: "88%", labelKey: "hero_stat_revenue" },
+              { icon: Shield, value: "$0", labelKey: "hero_stat_deposit" },
+              { icon: Clock, value: "24/7", labelKey: "hero_stat_support" },
+              { icon: ArrowRight, value: "1-2", labelKey: "hero_stat_start" },
             ].map((item, i) => (
               <motion.div
                 key={i}
@@ -78,7 +78,7 @@ export default function Hero() {
               >
                 <item.icon className="w-8 h-8 mb-3 text-white/60 group-hover:text-white transition-colors" />
                 <div className="text-3xl font-bold mb-1">{item.value}</div>
-                <div className="text-sm text-white/50">{item.label}</div>
+                <div className="text-sm text-white/50">{t(item.labelKey)}</div>
               </motion.div>
             ))}
           </motion.div>
@@ -86,10 +86,10 @@ export default function Hero() {
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-10 lg:hidden">
           {[
-            { icon: TrendingUp, value: "88%", label: "Your revenue" },
-            { icon: Shield, value: "$0", label: "No deposit" },
-            { icon: Clock, value: "24/7", label: "Support" },
-            { icon: ArrowRight, value: "1-2", label: "Days to start" },
+            { icon: TrendingUp, value: "88%", labelKey: "hero_stat_revenue" },
+            { icon: Shield, value: "$0", labelKey: "hero_stat_deposit" },
+            { icon: Clock, value: "24/7", labelKey: "hero_stat_support" },
+            { icon: ArrowRight, value: "1-2", labelKey: "hero_stat_start" },
           ].map((item, i) => (
             <motion.div
               key={i}
@@ -99,7 +99,7 @@ export default function Hero() {
               className="bg-white/8 backdrop-blur-md border border-white/15 rounded-xl p-4 text-white text-center"
             >
               <div className="text-xl sm:text-2xl font-bold">{item.value}</div>
-              <div className="text-xs text-white/50 mt-1">{item.label}</div>
+              <div className="text-xs text-white/50 mt-1">{t(item.labelKey)}</div>
             </motion.div>
           ))}
         </div>
