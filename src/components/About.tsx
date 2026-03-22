@@ -89,7 +89,7 @@ export default function About() {
             <div className="relative mt-8 lg:mt-0">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary-200 to-purple-200 rounded-3xl blur-2xl opacity-30" />
               <img
-                src="https://images.unsplash.com/photo-1758224388398-66ff9c5f6615?w=800&q=80"
+                src="/about-photo.png"
                 alt="Auto transport"
                 className="relative rounded-2xl shadow-xl w-full object-cover aspect-[4/3]"
               />
