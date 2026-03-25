@@ -83,8 +83,7 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   verification: {
-    // Replace with actual verification code after adding site to Google Search Console
-    // google: "YOUR_GOOGLE_VERIFICATION_CODE",
+    google: "IQNPiyksKQECVmLBbWl7p2C-apIFnv2E6I8Y9Cx11S4",
   },
 };
 
